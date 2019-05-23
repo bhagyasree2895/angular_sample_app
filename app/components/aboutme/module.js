@@ -14,3 +14,6 @@
           $scope.Student=Student;
           
       });
+      let mycontroller=function($scope){
+        $scope.message="Hello World";
+    }

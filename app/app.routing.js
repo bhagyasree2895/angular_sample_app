@@ -16,6 +16,7 @@ angular.module("myApp").config(function ($routeProvider) {
     })
     .when("/aboutme", {
         templateUrl : "app/components/aboutme/index.html",
-        controller : "myFirstController"
+        controller : "myFirstController",
+        controller : "mycontroller"
     });
 });
